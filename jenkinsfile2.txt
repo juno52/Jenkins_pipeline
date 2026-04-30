@@ -45,6 +45,7 @@ pipeline {
         stage('Deploy to Production') {
             steps {
                 echo "Deployment of the application to the end-user using Kubernetes"
+                echo "Deployment"
             }
         }
     }
