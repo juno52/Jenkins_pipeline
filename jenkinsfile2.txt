@@ -46,6 +46,7 @@ pipeline {
             steps {
                 echo "Deployment of the application to the end-user using Kubernetes"
                 echo "Deployment completed, thankyou for using us"
+                echo "Goodbye."
             }
         }
     }
